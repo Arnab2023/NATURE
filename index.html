@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="icon/asa.png" sizes="[style.property]="expression"">
-    <link rel="stylesheet" href="index.css">
     <title>Welcome to the NATURE</title>
     
     <link
@@ -13,7 +12,18 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    
+    <style>
+      .class{
+        visibility: visible;
+      }
+      @media screen and (max-width: 480px){
+        .class{
+          
+          height:250px;
+
+        }
+      }
+    </style>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -262,42 +272,44 @@
         </div>
       </div>
     </div>
-    <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://source.unsplash.com/1400x600/?nature,water" class="d-block w-100" alt="...">
+        <div class="carousel-item active class" >
+          <img src="https://source.unsplash.com/1400x600/?nature,water" class="d-block w-100 class" alt="..." >
           <div class="container">
             <div class="carousel-caption text-start">
-              <h1>Welcome to <b>NATURE</b></h1>
+              <div class="container" >
+              <h1 style="font-weight: bolder ;text-shadow: 3px 3px 3px #000000"  >Welcome to <b>NATURE</b></h1>
               <h3 
-              style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
-              style="padding: 2px;">Come be a part of us<h3>
+              style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              padding: 2px;font-weight: bolder;text-shadow: 3px 3px 3px black">Come be a part of us<h3>
               
               <p style="padding-top: 10px;"><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
             </div>
+            </div>
           </div>
         </div>
-        <div class="carousel-item active">
-          <img src="https://source.unsplash.com/1400x600/?nature,plants" class="d-block w-100" alt="...">
+        <div class="carousel-item active class">
+          <img src="https://source.unsplash.com/1400x600/?nature,plants" class="d-block w-100" alt="..." >
           <div class="container">
             <div class="carousel-caption text-start">
-              <h1>Know what we do</h1>
+              <h1 style="font-weight: bolder;text-shadow: 3px 3px 3px black">Know what we do</h1>
               <h3 
-              style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
-              style="padding: 2px;">Get an enhanced experience...<h3>
+              style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              padding: 2px;font-weight: bolder;text-shadow: 3px 3px 3px black">Get an enhanced experience...<h3>
               
               <p style="padding-top: 10px;"><a class="btn btn-lg btn-primary" href="#">Click Here</a></p>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="https://source.unsplash.com/1400x600/?ecosystem,biology" class="d-block w-100" alt="...">
+        <div class="carousel-item active class">
+          <img src="https://source.unsplash.com/1400x600/?ecosystem,biology" class="d-block w-100 class" alt="..." >
           <div class="container">
             <div class="carousel-caption text-start">
-              <h1>The future is here</h1>
+              <h1 style="font-weight: bolder;text-shadow: 3px 3px 3px black">The future is here</h1>
               <h3 
-              style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
-              style="padding: 2px;">And we're here to better it<h3>
+              style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              padding: 2px;font-weight: bolder;text-shadow: 3px 3px 3px black">And we're here to better it<h3>
               
               <p style="padding-top: 10px;"><a class="btn btn-lg btn-primary" href="#">Contact Us</a></p>
             </div>
